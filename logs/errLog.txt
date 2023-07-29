@@ -1,0 +1,9 @@
+20230722	12:14:18	9f7c9a1a-a46d-475e-9bb9-32aa43e0fb12	VersionError: No matching document found for id "64ba5cab8f9cd2a3e57d5f18" version 106 modifiedPaths "refreshToken"
+20230723	12:57:18	36df8605-83d7-42e0-8fdc-0f05bc0a3c77	CastError: Cast to ObjectId failed for value "{ id: '64bcf949a29abe7658545bfe' }" (type Object) at path "_id" for model "User"
+20230723	13:02:35	a7e6d3e3-7f55-4a37-8bce-9d36b1ae718e	CastError: Cast to ObjectId failed for value "{ id: '64bcf949a29abe7658545bfe' }" (type Object) at path "_id" for model "User"
+20230723	13:18:13	2bebd70a-ced9-4cb0-9241-330e29cc5312	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230723	13:37:20	ccc688bc-4658-4328-81f2-86fc4e2a8d67	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230724	22:22:45	92d5794f-6f24-4ce9-bcd7-60774b58ff4f	TypeError: Cannot read properties of null (reading 'username')
+20230724	22:23:05	6bcee6bb-cf8c-4db0-b213-41b63b581d4b	TypeError: Cannot read properties of null (reading 'username')
+20230724	22:24:31	117b6e22-e4f2-4501-8fa0-1477db9de561	TypeError: Cannot read properties of null (reading 'username')
+20230724	22:25:51	5e98ffdd-36cd-47a7-a147-2ef528a545a3	TypeError: Cannot read properties of null (reading 'username')
