@@ -6760,3 +6760,8 @@
 20230729	09:44:26	b51213f7-6729-4279-bd53-4efc5089e8a0	GET	http://localhost:5174	/posts
 20230729	09:49:51	9b8c8ef9-54ad-443f-91be-c6a2fc39c566	POST	http://localhost:5174	/logout
 20230729	09:49:53	bafa3628-942e-4c24-ab5a-4ac0c5c3d93a	GET	http://localhost:5174	/refresh
+20230729	13:02:12	501b6b1f-1451-4505-af51-c0954ac79645	GET	undefined	/
+20230729	13:02:12	67d713d5-a765-40a7-a8c7-da463f32d460	GET	undefined	/css/style.css
+20230729	13:02:18	4c379239-9d64-4963-96b6-106fdd8028b2	GET	undefined	/efaf
+20230729	13:02:22	da8546ff-5e6a-4929-a831-e35af1c69bf4	GET	undefined	/
+20230729	13:02:22	7ffbd09c-d393-468c-94e5-7e5747a6e708	GET	undefined	/css/style.css
