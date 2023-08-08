@@ -7,3 +7,29 @@
 20230724	22:23:05	6bcee6bb-cf8c-4db0-b213-41b63b581d4b	TypeError: Cannot read properties of null (reading 'username')
 20230724	22:24:31	117b6e22-e4f2-4501-8fa0-1477db9de561	TypeError: Cannot read properties of null (reading 'username')
 20230724	22:25:51	5e98ffdd-36cd-47a7-a147-2ef528a545a3	TypeError: Cannot read properties of null (reading 'username')
+20230731	08:32:37	8a50dffb-af8b-4fd8-8855-4e9dd6f26eed	Error: Not allowed by CORS
+20230731	08:32:37	f603c886-4d8c-4cf5-965a-26e608181d91	Error: Not allowed by CORS
+20230803	09:20:18	56d59ced-cb15-4bef-b5c4-4413dfca3b1b	ReferenceError: rq is not defined
+20230804	12:18:25	f4f94abd-14a6-42e5-9b69-6efaed975d28	MongoServerError: E11000 duplicate key error collection: blog.posts index: _id_ dup key: { _id: ObjectId('64ccc9f5c4f5912abe6956ea') }
+20230804	12:19:26	2e85af40-c206-4d4b-ab61-dc3a330c5b61	TypeError: post.save is not a function
+20230804	14:33:19	990cb1d6-eb02-44ba-bbd8-75f0f1a2644c	ReferenceError: fileName is not defined
+20230804	19:55:29	43d9ac29-58cb-4df3-8cdd-a1b13eb0480b	ValidationError: Post validation failed: title: Path `title` is required., content: Path `content` is required.
+20230804	19:56:26	5f21c46b-76f4-4d50-ac1b-60d4a56fecfc	ValidationError: Post validation failed: title: Path `title` is required., content: Path `content` is required.
+20230804	19:58:19	4ea45466-3a80-462b-8b11-1f3b9b42df7f	ValidationError: Post validation failed: title: Path `title` is required., content: Path `content` is required.
+20230804	20:01:41	84c4b388-2bb1-4fa9-b254-d1e11b8626c8	ValidationError: Post validation failed: title: Path `title` is required., content: Path `content` is required.
+20230804	20:05:13	f529395f-f43c-4e04-a523-0b80371f38d9	ValidationError: Comment validation failed: comment: Path `comment` is required.
+20230804	20:08:45	1827f507-d6ed-48ab-b3ea-8833737c88cf	ValidationError: Comment validation failed: comment: Path `comment` is required.
+20230804	20:13:18	f5bf10e5-03aa-4c2a-bfe6-7f4ac1639797	ValidationError: Comment validation failed: comment: Path `comment` is required.
+20230804	20:23:18	233ac903-db22-43bd-be30-49e569e7bd9a	ValidationError: Comment validation failed: comment: Path `comment` is required.
+20230804	20:33:08	bd9d2687-f07d-497e-9b51-0cf06b6e1019	ValidationError: Comment validation failed: comment: Path `comment` is required.
+20230804	20:40:49	96d1cb44-22e6-4bf8-ad85-cb9c9273a2dd	ValidationError: Comment validation failed: comment: Path `comment` is required.
+20230804	20:42:20	db35cdb5-8d58-4c15-9133-2a5263ddb476	ValidationError: Comment validation failed: comment: Path `comment` is required.
+20230804	20:52:55	9687b5b3-f5e5-4011-a770-597451cdb947	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230804	20:53:44	112cbdd3-700e-48c7-90cb-b44682a19256	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230804	21:03:12	57c73841-dcb9-4124-88ca-a9998ec349dc	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230804	21:04:21	7d07a35e-3784-426f-9ac7-27023f62c3d9	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230804	21:06:25	d870466d-ab84-4ec6-a54c-516f3d433c0b	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230804	21:07:45	8a104eea-3943-44b3-9c4f-7e54e9ec19e3	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230804	21:09:51	830c20c5-db4b-4228-ae74-6a5a339307b1	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230804	21:12:42	68777b98-ad36-4193-b42e-28fdc51acfb2	SyntaxError: Unexpected token '"', "#" is not valid JSON
+20230808	13:46:37	d0f74335-89e1-46d0-beb2-412c13676f90	Error: Cannot set headers after they are sent to the client

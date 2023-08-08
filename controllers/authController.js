@@ -6,6 +6,7 @@ const handleLogin = async (req, res) => {
   const cookies = await req.cookies;
   console.log(`cookie available at login: ${JSON.stringify(cookies)}`);
   const { username, password } = req.body;
+  console.log(username, password)
   if (!username || !password) return res.status(400).json({ 'message': 'Username and password are required.' });
 
   const foundUser = await User.findOne({ username }).exec();

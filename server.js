@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require("express");
+const fileUpload = require("express-fileupload");
 const app = express();
 const path = require("path");
 const cors = require("cors");
@@ -16,6 +17,8 @@ const PORT = process.env.PORT || 3600;
 //Connect to mongo database
 connectDB();
 
+app.use(fileUpload());
+
 app.use(logger);
 
 app.use(credentials);
@@ -29,6 +32,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 //serve static files
+app.use("/uploads", express.static(path.join(__dirname, "/uploads")))
 app.use("/", express.static(path.join(__dirname, "/public")));
 
 // routes
@@ -40,6 +44,7 @@ app.use("/logout", require("./routes/logout"));
 app.use(verifyJWT)
 app.use("/posts", require("./routes/api/posts"));
 app.use("/users", require("./routes/api/users"));
+app.use("/comments", require("./routes/api/comments"));
 
 app.get("/*", (req, res) => {
   res.status(404).sendFile(path.join(__dirname, "views", "404.html"));

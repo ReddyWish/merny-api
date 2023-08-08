@@ -10,8 +10,9 @@ const ROLES_LIST = require("../../config/roles_list");
 router.route("/")
   .get(verifyRoles(ROLES_LIST.User), usersController.getAllUsers)
   .delete(verifyRoles(ROLES_LIST.Admin), usersController.deleteUser)
+  .patch(verifyRoles(ROLES_LIST.User), usersController.updateUser)
   // .post(usersController.createNewUser)
-  // .patch(usersController.updateUser)
+
 
 router.route("/:id")
   .get(verifyRoles(ROLES_LIST.User), usersController.getUser);

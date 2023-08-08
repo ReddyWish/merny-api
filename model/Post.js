@@ -10,11 +10,23 @@ const postSchema = new Schema({
       type: String,
       required: true
     },
+    imgUrl: {
+      type: String,
+      default: ""
+    },
+    views: {
+      type: Number,
+      default: 0
+    },
     user: {
       type: Schema.Types.ObjectId,
       ref: "User",
       // required: true
-    }
+    },
+    comments: [{
+      type: Schema.Types.ObjectId,
+      ref: "Comment"
+    }]
   },
   {
     timestamps: true
@@ -22,3 +34,23 @@ const postSchema = new Schema({
 
 
 module.exports = mongoose.model("Post", postSchema)
+
+
+// const postSchema = new Schema({
+//     title: {
+//       type: String,
+//       required: true
+//     },
+//     content: {
+//       type: String,
+//       required: true
+//     },
+//     user: {
+//       type: Schema.Types.ObjectId,
+//       ref: "User",
+//       // required: true
+//     }
+//   },
+//   {
+//     timestamps: true
+//   })
